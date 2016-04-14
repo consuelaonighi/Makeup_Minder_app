@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ionic.css" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!--Font awsome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+
+</head>
+
+<body ng-app="starter">
+
+    <ion-pane>
+        <ion-content>
+
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper">
+                         <a href="#" class="brand-logo">MakeUp Minder</a> <img src="img/logo.png" class="logo">
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="trends.html">Latest Trends</a></li>
+                            <li><a href="brushes.html">Brushes Guide</a></li>
+                            <li><a href="tutorials.html">Tutorials</a></li>
+                            <li><a href="content.html">Shelf Life</a></li>
+                            <li><a href="home.html">Profile</a></li>
+            
+                            
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                                   <li><a href="trends.html"><img src="img/nature.png">Latest Trends</a></li>
+                            <li><a href="brushes.html"><img src="img/facial.png"> Brushes Guide</a></li>
+                            <li><a href="tutorials.html"><img src="img/beauty.png">Tutorials</a></li>
+                            <li><a href="content.html"><img src="img/beautiful.png">Shelf Life</a></li>
+                            <li><a href="home.html"><img src="img/black.png">Profile</a></li>
+                              
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+         
+
+<div class="img-container">
+            <img src="img/badproducts.svg" class="headerimg">   
+      <img class="avatar">
+   <h4 id="shelflife">When Good Products Go Bad</h4>
+   
+         </div>
+            
+<div class="list">
+
+    <a class="item item-avatar" href="#">
+      <img src="img/pao.jpg">
+      <h2>Period After Opening</h2>
+      <p>The PAO symbol tells you when to throw a <br>product away after opening. It appears <br>as an open jar icon on the packaging.</p>
+          <button class="button button-clear button-positive">
+Read More
+</button>
+    </a>
+  <a class="item item-avatar" href="#">
+      <img src="img/eye.jpg">
+      <h2>Know the signs</h2>
+      <p>If a product seems unusually discolored,<br> runny or lumpy, has separated or <br>developed a strange odor chances are is<br> out of date</p>
+        <button class="button button-clear button-positive">
+Read More
+</button>
+    </a>
+    
+       <a class="item item-avatar" href="#">
+      <img src="img/warning.jpg">
+      <h2>What are the risks?</h2>
+      <p>Serious skin problems that can occur include<br> allergic rashes, irritations, boils and infections.<br> Eye infections are the most common.</p> 
+             <button class="button button-clear button-positive">
+Read More
+</button>
+    </a>
+
+</div>            
+        </ion-content>
+    </ion-pane>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 0,
+                video: false,
+                lazyLoad: true,
+                center: true,
+                responsive: {
+                    480: {
+                        items: 2
+                    },
+                    600: {
+                        items: 4
+                    }
+                }
+            });
+            $(".button-collapse").sideNav();
+        });
+    </script>
+
+</body>
+
+</html>
