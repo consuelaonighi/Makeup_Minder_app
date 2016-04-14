@@ -1,0 +1,151 @@
+/* Empty. Add your own CSS if you like */
+
+.headerimg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+form {
+    padding-top: 80% !important;
+}
+
+#sidenav-overlay {
+    display: none !important;
+}
+
+.owl-carousel {
+    padding: 25px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.avatar {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.title {
+    color: #fff !important;
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#products {
+    color: #fff;
+    text-align: center;
+    padding-left: 2em;
+}
+
+#date {
+    color: #fff !important;
+    text-align: center;
+    padding-left: 3em;
+}
+
+.list {
+    padding-top: 10em !important;
+}
+
+#footer {
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.fa-user-times {
+    color: #ec407a;
+}
+
+.fa-cog {
+    color: #ec407a;
+}
+
+.setting-container profilepic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.profilepic {
+    width: 100px;
+    height: auto;
+    display: block;
+    float: right;
+    padding-top: 7em;
+    padding-right: 2em;
+}
+
+#name {
+    color: #fff !important;
+    text-align: center;
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+#occupation {
+    color: #fff !important;
+    text-align: center;
+    padding-left: 5em;
+}
+
+#setting_option {
+    padding-top: 5em;
+}
+
+.icon-right {
+    position: relative;
+    font-size: 25px;
+    color: #ec407a;
+    padding-right: 10px;
+}
+
+.logo{
+    width: 55px;
+    float: right;
+}
+
+#shelflife{
+       color: #fff !important;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#trends_option {
+    padding-top: 13em;
+}
+
+#brush_option{
+    padding-top: 11em;
+}
+
+#trends{
+    padding-top: -200px;
+}
+
+#walkthrough{
+    height: 250px !important;
+}
+
+.ion-sad-outline{
+   color: #ec407a !important;
+}
