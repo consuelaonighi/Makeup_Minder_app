@@ -1,1 +1,0 @@
-# Makeup_Minder_app
